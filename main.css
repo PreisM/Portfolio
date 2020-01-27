@@ -116,7 +116,7 @@ li {
 
 .menu-toggler {
     position: fixed;
-    top: 2.2rem;
+    top: 1.2rem;
     right: 5rem;
     width: 5rem;
     height: 4rem;
@@ -173,7 +173,7 @@ li {
 }
 
 .landing-text h1 {
-    font-size: 12rem;
+    font-size: 11rem;
     font-family: 'PT Serif', serif;
     background: linear-gradient(to top, #575759, #707173);
     -webkit-background-clip: text;
@@ -273,7 +273,7 @@ li {
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 7rem;
+    grid-gap: 4rem;
     text-align: center;
 }
 
@@ -303,11 +303,10 @@ li {
     height: 12rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3rem;
     border-radius: 1rem;
-    margin-bottom: 2rem;
     display: flex;
     border: 1px solid black;
-    margin-bottom: 5rem;
     -webkit-box-shadow: 0px 0px 22px -1px rgba(112, 113, 115, 1);
     -moz-box-shadow: 0px 0px 22px -1px rgba(112, 113, 115, 1);
     box-shadow: 0px 0px 22px -1px rgba(112, 113, 115, 1);
