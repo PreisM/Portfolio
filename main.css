@@ -569,6 +569,9 @@ input[type="submit"]:hover {
     .up {
         right: 2rem;
     }
+    .contact {
+        width: 100%;
+    }
     .icon-container i {
         font-size: 5rem;
     }
