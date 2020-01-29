@@ -413,7 +413,7 @@ form label {
 input,
 select,
 textarea {
-    width: 100%;
+    width: 90%;
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
