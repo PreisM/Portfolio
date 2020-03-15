@@ -7,15 +7,14 @@
 html {
     font-size: 10px;
     font-family: 'PT Serif', serif;
-    color: #353537;
+    color: #387F99;
     width: 100%;
 }
 
 body {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #fff, #f5f5f5);
-    background-size: cover;
+    background-color: #f5f5f5;
     z-index: auto;
 }
 
@@ -53,7 +52,7 @@ img {
 
 .section-heading h1 {
     font-size: 3.5rem;
-    color: #353537;
+    color: #387F99;
     text-transform: uppercase;
     font-weight: 900;
     position: relative;
@@ -82,7 +81,7 @@ header {
     border-bottom-left-radius: 2%;
     right: -250vh;
     z-index: 50;
-    background-color: #100d0dc7;
+    background-color: #78c2d1;
     transition: all 300ms cubic-bezier(1, 0, 0, 1);
 }
 
@@ -109,7 +108,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-    background: linear-gradient(to top, #8d8a8a, #707173);
+    background: linear-gradient(to top, #f5f5f5, #afd3da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -139,7 +138,7 @@ li {
 }
 
 .bar {
-    background: #353537;
+    background: #387F99;
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -187,7 +186,7 @@ li {
 .landing-text h1 {
     font-size: 11rem;
     font-family: 'PT Serif', serif;
-    background: linear-gradient(to top, #353537, #707173);
+    background: #387F99;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     user-select: none;
@@ -197,12 +196,13 @@ li {
     opacity: 0.2;
     padding: 0;
     margin: 0;
+    color: #387F99;
 }
 
 .landing-text h6 {
     font-size: 3rem;
     font-weight: 300;
-    color: #353537;
+    color: #387F99;
     opacity: 0.75;
 }
 
@@ -212,12 +212,12 @@ li {
     font-size: 1.8rem;
     text-transform: uppercase;
     word-spacing: 6rem;
-    color: #3883ff;
+    color: #101414a9;
     transition: color 500ms;
 }
 
 .portfolio-description .cta:hover {
-    color: #2f67cd;
+    color: #387F99;
 }
 
 .about .container {
@@ -257,7 +257,7 @@ li {
 }
 
 .icon-link {
-    color: #707173;
+    color: #78c2d1;
     margin: 1.5rem;
 }
 
@@ -320,13 +320,13 @@ li {
     display: flex;
     border: 1px solid black;
     margin-bottom: 2rem;
-    -webkit-box-shadow: 0px 5px 40px 1px rgba(53, 53, 55, 0.77);
-    -moz-box-shadow: 0px 5px 40px 1px rgba(53, 53, 55, 0.77);
-    box-shadow: 0px 5px 40px 1px rgba(53, 53, 55, 0.77);
+    -webkit-box-shadow: 0px 5px 40px 1px rgba(16, 20, 20, 0.663);
+    -moz-box-shadow: 0px 5px 40px 1px rgba(16, 20, 20, 0.663);
+    box-shadow: 0px 5px 40px 1px rgba(16, 20, 20, 0.663);
 }
 
 .icon-container i {
-    color: #353537;
+    color: #101414a9;
     font-size: 7rem;
     margin: auto;
 }
@@ -391,7 +391,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     border-radius: 1rem;
-    background-color: #BABBBF;
+    background-color: #78c2d1;
     padding: 4rem;
     overflow-y: hidden;
 }
@@ -417,33 +417,33 @@ textarea {
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #06050c;
+    outline-color: #afd3da;
     border-radius: .8rem;
 }
 
 input[type="submit"] {
     width: initial;
     height: initial;
-    background-color: #707173;
+    background-color: #afd3da;
     font-size: 2.2rem;
-    color: #eee;
+    color: #211F1F;
     border-radius: .9rem;
-    border: 1px solid black;
+    border: 1px solid #387F99;
     cursor: pointer;
     transition: background-color 500ms;
     display: flex;
-    margin: 1rem auto;
+    margin: 3rem auto;
 }
 
 input[type="submit"]:hover {
     color: #eee;
-    background-color: #353537;
+    background-color: #387F99;
 }
 
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: #100d0dc7;
+    background-color: #387F99;
     color: #eee;
     padding: 2rem 0;
     position: relative;
@@ -460,11 +460,11 @@ input[type="submit"]:hover {
     display: flex;
     animation: pulse 1.5s infinite;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #78c2d1;
 }
 
 .up i {
-    color: #16162d;
+    color: #78c2d1;
     font-size: 2rem;
     margin: auto;
 }
@@ -478,13 +478,13 @@ input[type="submit"]:hover {
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(16, 13, 13, .99)
+        box-shadow: 0 0 0 0 rgba(175, 211, 218, .99);
     }
     70% {
-        box-shadow: 0 0 0 2rem rgba(16, 13, 13, 0)
+        box-shadow: 0 0 0 2rem rgba(175, 211, 218, .0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(16, 13, 13, 0)
+        box-shadow: 0 0 0 0 rgba(175, 211, 218, .0);
     }
 }
 
